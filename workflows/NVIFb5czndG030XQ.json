@@ -330,7 +330,7 @@
       "type": "n8n-nodes-base.scheduleTrigger",
       "typeVersion": 1.2,
       "position": [
-        -3500,
+        -3760,
         440
       ],
       "id": "3ad6e643-bbaa-4bf7-ae09-09b6731da6c4",
@@ -357,7 +357,7 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.5,
       "position": [
-        -3240,
+        -3500,
         440
       ],
       "id": "df56aa1e-5842-4741-ba76-d54e5d4667a5",
@@ -389,7 +389,7 @@
       "type": "@n8n/n8n-nodes-langchain.openAi",
       "typeVersion": 1.8,
       "position": [
-        -2860,
+        -2820,
         440
       ],
       "id": "c5a5d379-3d09-44bf-a3b0-36f95b2703bd",
@@ -424,7 +424,7 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        -2280,
+        -2220,
         440
       ],
       "id": "0a192493-86e2-4713-819d-4d86b4307234",
@@ -529,8 +529,8 @@
       "type": "@n8n/n8n-nodes-langchain.openAi",
       "typeVersion": 1.8,
       "position": [
-        -940,
-        440
+        -3820,
+        1140
       ],
       "id": "3fdcd267-cf41-48f9-ad8b-17e988e1798d",
       "name": "Add internal links",
@@ -561,8 +561,8 @@
       "type": "@n8n/n8n-nodes-langchain.openAi",
       "typeVersion": 1.8,
       "position": [
-        1100,
-        440
+        -1780,
+        1140
       ],
       "id": "e19e4f07-171e-45d4-ad62-874534f4ff83",
       "name": "Slug",
@@ -593,8 +593,8 @@
       "type": "@n8n/n8n-nodes-langchain.openAi",
       "typeVersion": 1.8,
       "position": [
-        1520,
-        440
+        -1340,
+        1140
       ],
       "id": "28f3a493-d827-476a-8d1e-562f92f794ae",
       "name": "Title",
@@ -625,8 +625,8 @@
       "type": "@n8n/n8n-nodes-langchain.openAi",
       "typeVersion": 1.8,
       "position": [
-        1860,
-        440
+        -880,
+        1140
       ],
       "id": "5ca4fffe-7281-40e1-a758-d12ed189eb1e",
       "name": "Meta description",
@@ -660,8 +660,8 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        2240,
-        440
+        -1700,
+        1500
       ],
       "id": "b95cd332-64d8-4a85-b2ce-5db2d811380f",
       "name": "Image Covers",
@@ -699,8 +699,8 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        2420,
-        440
+        -1520,
+        1500
       ],
       "id": "d379af53-bfbe-4571-b474-5b19236f91c8",
       "name": "Edit Fields"
@@ -807,8 +807,8 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.5,
       "position": [
-        2900,
-        440
+        -1000,
+        1500
       ],
       "id": "6f68ed50-26cb-48ce-90f8-256d5f4e9e49",
       "name": "Check as completed on Sheets",
@@ -924,8 +924,8 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.5,
       "position": [
-        3080,
-        440
+        -820,
+        1500
       ],
       "id": "88c90807-42fc-4e0f-8cce-4138a549369d",
       "name": "Google Sheets",
@@ -944,7 +944,7 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        -3580,
+        -3840,
         360
       ],
       "typeVersion": 1,
@@ -958,7 +958,7 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        -3300,
+        -3560,
         360
       ],
       "typeVersion": 1,
@@ -969,7 +969,7 @@
       "parameters": {
         "content": "## Preliminary Post Plan \n \n",
         "height": 240,
-        "width": 300
+        "width": 400
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
@@ -988,7 +988,7 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        -2540,
+        -2440,
         360
       ],
       "typeVersion": 1,
@@ -1028,13 +1028,13 @@
     {
       "parameters": {
         "content": "## Internal Links\n \n \n",
-        "height": 240,
+        "height": 280,
         "width": 300
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        -960,
-        360
+        -3840,
+        1060
       ],
       "typeVersion": 1,
       "id": "732d5ac9-a544-472b-a6f4-8afdd79f5b8f",
@@ -1048,8 +1048,8 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        480,
-        360
+        -2400,
+        1060
       ],
       "typeVersion": 1,
       "id": "f6572fa4-de28-4455-860e-564057f5b78c",
@@ -1063,8 +1063,8 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        1060,
-        380
+        -1820,
+        1080
       ],
       "typeVersion": 1,
       "id": "146df8e5-f6e7-4373-9937-183e710e3a98",
@@ -1078,8 +1078,8 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        1500,
-        360
+        -1360,
+        1060
       ],
       "typeVersion": 1,
       "id": "63493e88-ea2a-4e8c-9b1c-e4e8da1f33d8",
@@ -1093,8 +1093,8 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        1840,
-        360
+        -900,
+        1060
       ],
       "typeVersion": 1,
       "id": "0fe8850f-e36b-4547-9528-0a37a4b10a61",
@@ -1108,8 +1108,8 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        2180,
-        360
+        -1760,
+        1420
       ],
       "typeVersion": 1,
       "id": "5da692bf-c50d-4fd0-b59b-f2d2fc4470ce",
@@ -1122,8 +1122,8 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        2580,
-        360
+        -1360,
+        1420
       ],
       "typeVersion": 1,
       "id": "0ba444c6-d92f-4f62-ae62-8feac39711e5",
@@ -1153,8 +1153,8 @@
       "type": "n8n-nodes-base.wordpress",
       "typeVersion": 1,
       "position": [
-        2680,
-        440
+        -1260,
+        1500
       ],
       "id": "a603ef2f-281b-48c4-9207-a66e36354e2e",
       "name": "Wordpress",
@@ -1173,8 +1173,8 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        2820,
-        360
+        -1080,
+        1420
       ],
       "typeVersion": 1,
       "id": "7f28c896-9f19-48b5-a1ab-a5d889ad1d27",
@@ -1182,15 +1182,15 @@
     },
     {
       "parameters": {
-        "content": "# WORDPRESS & SOCIAL MEDIA\n # SEO POST\n\n \n \n",
-        "height": 180,
-        "width": 580,
+        "content": "# WORDPRESS & SOCIAL MEDIA # SEO POST\n\n \n \n",
+        "height": 80,
+        "width": 3200,
         "color": 6
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        -3580,
-        100
+        -3840,
+        200
       ],
       "typeVersion": 1,
       "id": "e96d34ef-a92b-4b71-b31f-1276e5935728",
@@ -1210,7 +1210,7 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        -2500,
+        -2400,
         440
       ],
       "id": "f2b4dbe3-2f9b-40ff-a354-fd30ed718151",
@@ -1271,8 +1271,8 @@
       "name": "Format the HTML result",
       "type": "n8n-nodes-base.html",
       "position": [
-        820,
-        440
+        -2060,
+        1140
       ],
       "typeVersion": 1.2
     },
@@ -1304,8 +1304,8 @@
       "name": "HTML version",
       "type": "@n8n/n8n-nodes-langchain.openAi",
       "position": [
-        500,
-        440
+        -2380,
+        1140
       ],
       "typeVersion": 1.3,
       "credentials": {
@@ -1417,8 +1417,8 @@
       "type": "n8n-nodes-base.switch",
       "typeVersion": 3.2,
       "position": [
-        -200,
-        420
+        -3080,
+        1120
       ],
       "id": "3e866942-755c-4f48-885e-4687a1b00c01",
       "name": "Switch"
@@ -1443,8 +1443,8 @@
       "type": "@n8n/n8n-nodes-langchain.openAi",
       "typeVersion": 1.8,
       "position": [
-        -520,
-        440
+        -3400,
+        1140
       ],
       "id": "942dff9c-29a4-47b9-8dca-1e09c9243057",
       "name": "OpenAI1",
@@ -1476,8 +1476,8 @@
       "type": "@n8n/n8n-nodes-langchain.openAi",
       "typeVersion": 1.8,
       "position": [
-        60,
-        100
+        -2820,
+        800
       ],
       "id": "bcba0a6b-1fc8-4896-9cba-e2af0dd4707e",
       "name": "Education",
@@ -1509,8 +1509,8 @@
       "type": "@n8n/n8n-nodes-langchain.openAi",
       "typeVersion": 1.8,
       "position": [
-        60,
-        320
+        -2820,
+        1020
       ],
       "id": "4b940c2f-02dc-4513-a152-ae4f61b74466",
       "name": "Service",
@@ -1543,8 +1543,8 @@
       "type": "@n8n/n8n-nodes-langchain.openAi",
       "typeVersion": 1.8,
       "position": [
-        60,
-        540
+        -2820,
+        1240
       ],
       "id": "b2cd3585-b07b-4568-a69f-a22fc4d690fa",
       "name": "Lead",
@@ -1576,8 +1576,8 @@
       "type": "@n8n/n8n-nodes-langchain.openAi",
       "typeVersion": 1.8,
       "position": [
-        60,
-        780
+        -2820,
+        1480
       ],
       "id": "39ae7db4-0eb3-45b2-88ef-3495252bf738",
       "name": "Product",
@@ -1597,8 +1597,8 @@
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
       "position": [
-        0,
-        0
+        -2880,
+        700
       ],
       "id": "213ec2f5-a8ce-4b0e-aa42-239a410058f5",
       "name": "Sticky Note15"
@@ -1612,8 +1612,8 @@
       "type": "n8n-nodes-base.stickyNote",
       "typeVersion": 1,
       "position": [
-        -560,
-        360
+        -3440,
+        1060
       ],
       "id": "1a1753c5-4c46-4c8f-8430-2fcb4cbae97e",
       "name": "Sticky Note16"
@@ -1645,7 +1645,7 @@
       "type": "n8n-nodes-base.filter",
       "typeVersion": 2.2,
       "position": [
-        -3020,
+        -3280,
         440
       ],
       "id": "7e024e17-12ab-452e-8aef-4b0f1aa5b041",
@@ -1666,6 +1666,6 @@
     }
   ],
   "triggerCount": 0,
-  "updatedAt": "2025-04-07T11:09:17.000Z",
-  "versionId": "39b2adea-6a4f-4901-bb07-cccdbf986784"
+  "updatedAt": "2025-04-07T13:58:35.000Z",
+  "versionId": "98c81332-d7f3-4b59-a4ed-7110fcb78bc6"
 }
