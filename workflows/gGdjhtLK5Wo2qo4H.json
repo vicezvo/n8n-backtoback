@@ -308,28 +308,6 @@
         ]
       ]
     },
-    "Google Gemini Chat Model": {
-      "ai_languageModel": [
-        [
-          {
-            "node": "AI Agent",
-            "type": "ai_languageModel",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "AI Agent": {
-      "main": [
-        [
-          {
-            "node": "Research1",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
     "Schedule Trigger1": {
       "main": [
         [
@@ -356,7 +334,281 @@
       "main": [
         [
           {
-            "node": "AI Agent",
+            "node": "DeepSeek",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "DeepSeek": {
+      "main": [
+        [
+          {
+            "node": "Research1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Research1": {
+      "main": [
+        [
+          {
+            "node": "Fix Links1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Fix Links1": {
+      "main": [
+        [
+          {
+            "node": "DeepSeek1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "DeepSeek1": {
+      "main": [
+        [
+          {
+            "node": "DeepSeek2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Previous Posts1": {
+      "main": [
+        [
+          {
+            "node": "Aggregate1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "DeepSeek2": {
+      "main": [
+        [
+          {
+            "node": "Previous Posts1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aggregate1": {
+      "main": [
+        [
+          {
+            "node": "DeepSeek3",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "DeepSeek3": {
+      "main": [
+        [
+          {
+            "node": "DeepSeek4",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "DeepSeek4": {
+      "main": [
+        [
+          {
+            "node": "Switch1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Switch1": {
+      "main": [
+        [
+          {
+            "node": "DeepSeek5",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "DeepSeek6",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "DeepSeek7",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "DeepSeek8",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "DeepSeek5": {
+      "main": [
+        [
+          {
+            "node": "DeepSeek9",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "DeepSeek6": {
+      "main": [
+        [
+          {
+            "node": "DeepSeek9",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "DeepSeek7": {
+      "main": [
+        [
+          {
+            "node": "DeepSeek9",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "DeepSeek8": {
+      "main": [
+        [
+          {
+            "node": "DeepSeek9",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "DeepSeek9": {
+      "main": [
+        [
+          {
+            "node": "Format the HTML result1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Image Covers1": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields1": {
+      "main": [
+        [
+          {
+            "node": "Wordpress1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Check as completed on Sheets1": {
+      "main": [
+        [
+          {
+            "node": "Google Sheets1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wordpress1": {
+      "main": [
+        [
+          {
+            "node": "Check as completed on Sheets1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Format the HTML result1": {
+      "main": [
+        [
+          {
+            "node": "DeepSeek10",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "DeepSeek10": {
+      "main": [
+        [
+          {
+            "node": "DeepSeek11",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "DeepSeek11": {
+      "main": [
+        [
+          {
+            "node": "DeepSeek12",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "DeepSeek12": {
+      "main": [
+        [
+          {
+            "node": "Image Covers1",
             "type": "main",
             "index": 0
           }
@@ -1342,11 +1594,11 @@
         "messages": {
           "values": [
             {
-              "content": "You convert a JSON to HTML. \nThe JSON output has the following fields:\n- html: the page HTML\n- title: the page title",
+              "content": "=You convert a JSON to HTML. \nThe JSON output has the following fields:\n- html: the page HTML\n- title: the page title",
               "role": "system"
             },
             {
-              "content": "={{ $json.message.content.html }}"
+              "content": "="
             }
           ]
         },
@@ -1708,41 +1960,6 @@
     },
     {
       "parameters": {
-        "promptType": "define",
-        "text": "=Task:\n\nCreate a detailed blog post outline using bullet points.\n\nUse the following inputs:\n\nKeywords: {{ $json.Keywords }}\nSearch Intent: {{ $json.Intent }} (The user's goal when searching)\nPrimary Keyword: {{ $json['Primary Keyword'] }} (Use in title & intro)\nFAQs: {{ $json.Faq }} (Use to understand focus; generalize questions - remove company names)\nOutline Requirements: \nDirectly satisfy the Search Intent.\nEnsure the content revolves around and incorporates all provided Keywords.\nIntegrate the Primary Keyword naturally into the planned title and introduction.\nPlan the FAQ section based on generalized versions of the provided FAQs.\nFormat: Bullet points.\nObjective: The outline must enable the creation of a high-quality, relevant, and comprehensive blog post that fulfills the user's search needs.\nNote: Output the result only, no expalain or do anything else",
-        "options": {}
-      },
-      "type": "@n8n/n8n-nodes-langchain.agent",
-      "typeVersion": 1.7,
-      "position": [
-        -2860,
-        -520
-      ],
-      "id": "9ea30deb-a2f2-499e-aa13-24bb1d2713f0",
-      "name": "AI Agent"
-    },
-    {
-      "parameters": {
-        "modelName": "models/gemini-2.0-flash",
-        "options": {}
-      },
-      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
-      "typeVersion": 1,
-      "position": [
-        -2880,
-        -360
-      ],
-      "id": "1b8d9bab-1d1a-4066-ba3b-617287b5e42b",
-      "name": "Google Gemini Chat Model",
-      "credentials": {
-        "googlePalmApi": {
-          "id": "fvJxqIkWzbZwR6vj",
-          "name": "Google Gemini(PaLM) Api account"
-        }
-      }
-    },
-    {
-      "parameters": {
         "assignments": {
           "assignments": [
             {
@@ -1764,8 +1981,8 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        -2140,
-        -520
+        -2640,
+        -860
       ],
       "id": "dd59a85f-b530-48f5-8c5e-2f9541f60dc3",
       "name": "Fix Links1"
@@ -1784,8 +2001,8 @@
       "type": "n8n-nodes-base.scheduleTrigger",
       "typeVersion": 1.2,
       "position": [
-        -3540,
-        -520
+        -3600,
+        -860
       ],
       "id": "83fa149a-6f30-4b8f-97c8-cacb9c559b66",
       "name": "Schedule Trigger1"
@@ -1811,8 +2028,8 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.5,
       "position": [
-        -3280,
-        -520
+        -3340,
+        -860
       ],
       "id": "2d54791b-a4cd-483b-8b39-d615ef7c163c",
       "name": "Grab New Cluster1",
@@ -1831,8 +2048,8 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        -3620,
-        -600
+        -3680,
+        -940
       ],
       "typeVersion": 1,
       "id": "6f76aa4b-b886-431e-b909-5e359d305c63",
@@ -1845,8 +2062,8 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        -3340,
-        -600
+        -3400,
+        -940
       ],
       "typeVersion": 1,
       "id": "dc83b576-90ed-47fd-85a6-e7954a5059f5",
@@ -1879,8 +2096,8 @@
       "type": "n8n-nodes-base.filter",
       "typeVersion": 2.2,
       "position": [
-        -3060,
-        -520
+        -3120,
+        -860
       ],
       "id": "9810095e-a700-4b86-b091-b5f5eba57afa",
       "name": "Filter1"
@@ -1899,8 +2116,8 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        -2500,
-        -520
+        -2800,
+        -860
       ],
       "id": "32434ce3-0fb2-40b5-a428-53c595ea00c8",
       "name": "Research1",
@@ -1916,6 +2133,929 @@
         "perplexityApi": {
           "id": "HRz7NmRmVhN4ng0D",
           "name": "Perplexity account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "deepseek-chat",
+        "prompt": {
+          "messages": [
+            {
+              "role": "system",
+              "content": "=Task:\n\nCreate a detailed blog post outline using bullet points.\n\nUse the following inputs:\n\nKeywords: {{ $json.Keywords }}\nSearch Intent: {{ $json.Intent }} (The user's goal when searching)\nPrimary Keyword: {{ $json['Primary Keyword'] }} (Use in title & intro)\nFAQs: {{ $json.Faq }} (Use to understand focus; generalize questions - remove company names)\nOutline Requirements: \nDirectly satisfy the Search Intent.\nEnsure the content revolves around and incorporates all provided Keywords.\nIntegrate the Primary Keyword naturally into the planned title and introduction.\nPlan the FAQ section based on generalized versions of the provided FAQs.\nFormat: Bullet points.\nObjective: The outline must enable the creation of a high-quality, relevant, and comprehensive blog post that fulfills the user's search needs.\nNote: Output the result only, no explain or do anything else"
+            },
+            {
+              "content": "{{ $json.Prompt }} "
+            }
+          ]
+        },
+        "options": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-deepseek.deepSeek",
+      "typeVersion": 1,
+      "position": [
+        -2960,
+        -860
+      ],
+      "id": "f5f3eb01-e51c-43d5-9732-78208c016e42",
+      "name": "DeepSeek",
+      "credentials": {
+        "deepSeekApi": {
+          "id": "qcWiXiGtRkBn5I1g",
+          "name": "DeepSeek account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "deepseek-chat",
+        "prompt": {
+          "messages": [
+            {
+              "content": "=You are part of a team that creates world class blog posts. \n\nFor each new blog post project, you are provided with a list of keywords, a primary keyword, search intent, research findings and a preliminary blog post plan. Here's a definition of each of the inputs: \n\n- Keywords: These are the keywordswhich the blog post is meant to rank for on SEO. They should be scattered throughout the blog post intelligently to help with SEO. \n\n- Search intent: The search intent recognises the intent of the user when searching up the keyword. Our goal is to optimise the blog post to be highly relevant and valuable to the user, as such the search intent should be satisfied within the blog post. \n\n- Research findings: This is research found from very reputable resources in relation to the blog post. You must intelligently use this research to make your blog post more reputable. \n\n- Preliminary plan: Very basic plan set out by your colleague to kick off the blog post. \n\n- Primary keyword: Out of the keywords, there is one keyword known as the primary keyword. The primary keyword is the keyword which has the highest SEO importance and as such must go in the title and first few sentences of the blog post. It is important that the blog post is highly relevant to the primary keyword, so that it could be placed naturally into the title and introduction sections. \n\n- Faq: Top asked questions by users with answers\n\nGiven the said info, you must create a detailed plan for the blog post. \n \nYour output must: \n\n- Include a plan for the blog post.\n\n- Be in dot point format. \n\n- In each part of the blog post, you must mention which keywords should be placed. \n\nHere are the other things you must consider: \n\n- All keywords must be placed inside the blog post. For each section, mention which keywords to include. The keyword placement must feel natural and must make sense. \n\n- You must include all research points in the blog post. When including the research points, make sure to also include their source URL so that the copywriter can use them as hyperlinks. \n\n- You must ensure that the plan created satisfies the search intent and revolves directly around the given keywords. \n\n- Your plan must be very detailed. \n\n- Keep in mind the copywriter that will use your plan to write the blog post is not an expert in the topic of the blog post. So you should give them all the detail required so they can just turn it into nicely formatted paragraphs. So your plan should include all technical detail regarding each point to be in the blog post. For example instead of saying \"define X\", you must have \"define X as ...\". \n\n- The plan you create must have a flow that makes sense. \n\n- You must ensure the bog post will be highly detailed and satisfy the most important concepts regarding the topic. \n\n- You must ensure the Faq are mentioned without expliciexplicitly mentioning sensitive or public names , make the Faq public like question.\n\nA new project has just came across your desk with below details:\n\nKeywords: \n{{ $('Grab New Cluster1').item.json.Keywords }} \n\nSearch intent: \n{{ $('Grab New Cluster1').item.json.Intent }}\n\nPreliminary plan: \n{{ $('DeepSeek').item.json.message.content }}\n\nResearch findings: \n{{ $json.research }}\n\nPrimary keyword: \n{{ $('Grab New Cluster1').item.json['Primary Keyword'] }}\n\nFaq:\n{{ $('Grab New Cluster1').item.json.Faq }}\n\nCreate the detailed plan. \n\nYour output must only be the plan and nothing else. "
+            }
+          ]
+        },
+        "options": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-deepseek.deepSeek",
+      "typeVersion": 1,
+      "position": [
+        -2480,
+        -860
+      ],
+      "id": "d530f655-08a0-4750-bdcb-be4fb1c78401",
+      "name": "DeepSeek1",
+      "credentials": {
+        "deepSeekApi": {
+          "id": "qcWiXiGtRkBn5I1g",
+          "name": "DeepSeek account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "deepseek-chat",
+        "prompt": {
+          "messages": [
+            {
+              "content": "=You are part of a team that creates world class blog posts. \n\nYou are the teams best copywriter and are responsible for writing out the actual blog post. \n\nFor each new blog post project you are provided with a detailed plan and research findings. \n\nYour job is to create the blog post by closely following the detailed plan. \n\nThe blog post you create must: \n\n- Follow the plan bit by bit. \n\n- Use short paragraphs. \n\n- Use bullet points and subheadings with keywords where appropriate.  \n\n- Not have any fluff. The content of the blog must be value dense and direct. \n\n- Be very detailed. \n\n- Include the keywords mentioned in each section within that section. \n\n- Use the research as advised by the plan. Make sure to include the link associated with each point you extract from the research at the end of that section in the form of a URL.  \n\n- Place the primary keyword in the blog title, H1 header and early in the introduction. \n\n- Place one keyword for each section in the heading of that section. \n\n-  When possible pepper synonyms of the keywords throughout each section. \n\n- When possible use Latent Semantic Indexing (LSI) keywords and related terms to enhance context (e.g., “robotic process automation” for RPA). \n\n- Be at minimum 2000 to 2500 words long. \n\n- Be suitable for a year 5 reading level. \n\nMake sure to create the entire blog post draft in your first output. Don't stop or cut it short. \n\nHere are the details of your next blog post project: \n\nDetailed Plan: \n{{ $json.message.content }}\n\nDetailed Research: \n{{ $('Fix Links1').item.json.research }}\n\n\nWrite the blog post."
+            }
+          ]
+        },
+        "options": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-deepseek.deepSeek",
+      "typeVersion": 1,
+      "position": [
+        -2320,
+        -860
+      ],
+      "id": "065245ea-0883-4711-9ee0-615d097d9603",
+      "name": "DeepSeek2",
+      "credentials": {
+        "deepSeekApi": {
+          "id": "qcWiXiGtRkBn5I1g",
+          "name": "DeepSeek account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "aggregate": "aggregateAllItemData",
+        "destinationFieldName": "previous-posts",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        -2000,
+        -860
+      ],
+      "id": "fa6c9cd0-96f4-489a-8a53-18b836e27588",
+      "name": "Aggregate1"
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "12QRaArKqPS3Xc5xWmVYfVNEtQfVXEez7w-D0y4lvXhQ",
+          "mode": "list",
+          "cachedResultName": "JoFrame - Previous Posts",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/12QRaArKqPS3Xc5xWmVYfVNEtQfVXEez7w-D0y4lvXhQ/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 634298018,
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/12QRaArKqPS3Xc5xWmVYfVNEtQfVXEez7w-D0y4lvXhQ/edit#gid=634298018"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        -2160,
+        -860
+      ],
+      "id": "f22a620b-f6cf-412c-a1fb-c5c483f25801",
+      "name": "Previous Posts1",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "8050CbIUTPPd5eLC",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "deepseek-chat",
+        "prompt": {
+          "messages": [
+            {
+              "content": "=You are part of a team that creates world class blog posts. \n\nYou are in charge of internal linking between blog posts. \n\nFor each new blog post that comes across your desk, your job is to look through previously posted blogs and make atleast 5 internal links. \n\nTo choose the best internal linking opportunities you must: \n\n- Read the previous blog post summaries and look through their keywords. If there is a match where the previous blog post is highly relevant, then this is an internal linking opportunity. \n\n- Do not link if it is not highly relevant. Only make a link if it makes sense and adds value for the reader. \n\nOnce you've found the best linking opportunities, you must update the blog post with the internal links. To do this you must: \n\n- Add the link of the previous blog post at the relevant section of the new blog post. Drop the URL at the place which makes most sense. Later we will hyperlink the URL to the word in the blog post which it is placed next to. So your placing is very important. \n\nMake sure to not delete any existing URLs or change anything about the blog post provided to you. You must only add new internal linking URLs and output the revised blog post. \n\nYour output must be the blog post given to you plus the new urls. Don't remove any info. \n\nDon't return the previous blog posts. Only return the current blog post with the internal links added.\n\nCurrent blog Post: \n{{ $('DeepSeek2').last().json.message.content }}\n\nPrevious Blog Posts: \n{{ $json['previous-posts'].toJsonString().split() }}\n\n"
+            }
+          ]
+        },
+        "options": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-deepseek.deepSeek",
+      "typeVersion": 1,
+      "position": [
+        -1840,
+        -860
+      ],
+      "id": "5c90a722-9455-4b17-9e92-15d42e0bea29",
+      "name": "DeepSeek3",
+      "credentials": {
+        "deepSeekApi": {
+          "id": "qcWiXiGtRkBn5I1g",
+          "name": "DeepSeek account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "deepseek-chat",
+        "prompt": {
+          "messages": [
+            {
+              "content": "=content:{{ $json.message.content }}\n\nAnalyze the following content and categorize it into one of these four types:\n\nProduct Showcase → If it describes product features, specifications, and pricing.\n\nService Description → If it explains a service offering, process, or consultation.\n\nLead Generation → If the goal is to capture user details (e.g., sign up, free trial, booking).\n\nEducational Resource → If the focus is on providing knowledge, guides, or tutorials.\n\nReturn only the category name as a single word (Product, Service, Lead, or Education).\n\n"
+            }
+          ]
+        },
+        "options": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-deepseek.deepSeek",
+      "typeVersion": 1,
+      "position": [
+        -1680,
+        -860
+      ],
+      "id": "256db50f-4db2-4784-bcd3-5b821003838a",
+      "name": "DeepSeek4",
+      "credentials": {
+        "deepSeekApi": {
+          "id": "qcWiXiGtRkBn5I1g",
+          "name": "DeepSeek account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rules": {
+          "values": [
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "leftValue": "={{ $json.message.content }}",
+                    "rightValue": "Education",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals"
+                    },
+                    "id": "231306eb-9c99-4d01-8c4c-aef9d598addb"
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "0d9e7f11-b6b8-46a7-82ac-78765531c6a4",
+                    "leftValue": "={{ $json.message.content }}",
+                    "rightValue": "Service",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals",
+                      "name": "filter.operator.equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "82609943-ffa8-4eed-a218-8c3c45ac9152",
+                    "leftValue": "={{ $json.message.content }}",
+                    "rightValue": "Lead",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals",
+                      "name": "filter.operator.equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            },
+            {
+              "conditions": {
+                "options": {
+                  "caseSensitive": true,
+                  "leftValue": "",
+                  "typeValidation": "strict",
+                  "version": 2
+                },
+                "conditions": [
+                  {
+                    "id": "da99ef04-c989-457a-91e5-8d477ddba39e",
+                    "leftValue": "={{ $json.message.content }}",
+                    "rightValue": "Product",
+                    "operator": {
+                      "type": "string",
+                      "operation": "equals",
+                      "name": "filter.operator.equals"
+                    }
+                  }
+                ],
+                "combinator": "and"
+              }
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.switch",
+      "typeVersion": 3.2,
+      "position": [
+        -1520,
+        -880
+      ],
+      "id": "a0d43d50-1cae-4427-b40f-0d81fbe10203",
+      "name": "Switch1"
+    },
+    {
+      "parameters": {
+        "model": "deepseek-chat",
+        "prompt": {
+          "messages": [
+            {
+              "content": "=**Role:** You are an expert AI assistant functioning as a synergy of a **UI/UX designer**, **front-end developer (proficient in Tailwind CSS)**, **high-converting e-commerce copywriter**, and **SEO specialist**.\n\n**Content Input:**  \n```\n{{ $('DeepSeek3').item.json.message.content }}\n\n**Overall Task:** Generate a complete, professional, engaging, and conversion-optimized single-page landing page to sell a \"Lego Frame\" product. The output must be structured according to the specified JSON format, containing an SEO-optimized title and the complete HTML markup using **Tailwind CSS** for all styling, fully populated with compelling, SEO-informed copy, and adhering to all specified requirements.\n\n**Product Context & Details:**\n* **Product Name:** Premium Lego Minifigure Display Frame (or specify your exact name)\n* **Core Function:** To stylishly display and protect Lego minifigures.\n* **Target Audience:** Lego collectors (adults & kids), parents seeking organization/display solutions, gift-givers for Lego fans.\n* **Key Features:**\n    * Holds [Number of Minifigs] standard Lego minifigures.\n    * Crystal-clear, protective [e.g., acrylic, perspex] front cover.\n    * Frame constructed from [e.g., high-quality wood, durable plastic, aluminum].\n    * Easy access design for adding/swapping figures.\n    * Includes integrated wall-mounting hardware (and/or desk stand option).\n    * Available in [e.g., black, white, wood finish] colors/styles.\n    * Dimensions: [Provide approx. dimensions if available].\n* **Key Benefits:** Showcase collections beautifully, protect figures from dust/damage, organize clutter, turn minifigures into wall art, enhances room decor, perfect gift.\n\n**Landing Page Structure & Content Requirements (Generate directly into the HTML value within the JSON output):**\n\n1.  **Header Section:**\n    * **Structure:** Minimalist bar.\n    * **Content:** Placeholder for `[Your Brand Name]` logo on the left (use a simple text placeholder or an `<img>` tag with a placeholder `src`). Simple navigation links on the right: \"Features\", \"Gallery\", \"Shop\". Use appropriate Tailwind classes for layout and minimal styling.\n\n2.  **Hero Section:**\n    * **Structure:** Full-width section, visually impactful. Placeholder area for a background image (use comments or a placeholder div).\n    * **Copywriting:** Generate *one* compelling, benefit-driven **Headline** (e.g., \"Showcase Your Lego Minifigures in Style\"). Generate *one* concise **Subtext** expanding on the value (e.g., \"Protect, organize, and proudly display your favorite minifigs with our premium, easy-to-use frame.\"). Generate *one* clear, action-oriented **CTA Button Text** (e.g., \"Shop Frames Now\"). Integrate this copy directly into heading (h1/h2), paragraph (p), and button elements styled with Tailwind.\n\n3.  **Product Features & Benefits Section:**\n    * **Structure:** Use clear subheadings (e.g., \"Why Choose Our Frame?\"). Employ a layout (like a grid or alternating image/text blocks using Tailwind) suitable for showcasing 3-5 key features. Include placeholders for small icons or images related to features.\n    * **Copywriting:** For each key feature listed in \"Product Context & Details\" above, write a short description (1-2 sentences or bullet point) that clearly explains the feature AND emphasizes the resulting **benefit** for the customer. Integrate this copy directly. Focus on quality, protection, ease of use, and display aesthetics.\n\n4.  **Gallery/Inspiration Section:**\n    * **Structure:** Create a section with a heading like \"See It In Action\" or \"Collector Showcases\". Design a responsive grid (using Tailwind grid classes) to hold 4-6 placeholder images (`<img>` tags with placeholder `src` or colored divs) representing the frame in use in various settings or with different Lego themes.\n\n5.  **FAQ Section:**\n    * **Structure:** Include a heading (e.g., \"Frequently Asked Questions\"). Use an accordion structure (if feasible with basic Tailwind, otherwise simple Q&A pairs) for 4-5 questions.\n    * **Copywriting:** Generate 4-5 relevant **Questions** based on the product type (capacity, materials, dimensions, mounting, assembly, shipping). Generate a concise, helpful, and reassuring **Answer** for each question. Integrate Q&A directly into the structure.\n\n6.  **Call-to-Action (CTA) Section:**\n    * **Structure:** A visually distinct section designed to drive conversion.\n    * **Copywriting:** Generate *one* action-oriented **Headline** (e.g., \"Ready to Elevate Your Display?\"). Generate *one* strong **CTA Button Text** (e.g., \"Order Your Frame Today\"). Below the button, generate and list 3-4 concise **Trust Signals** as text snippets (e.g., \"✅ Secure Checkout\", \"⭐ Satisfaction Guaranteed\", \"🚚 Fast Shipping\"). Integrate directly.\n\n7.  **Footer Section:**\n    * **Structure:** Clean, minimal footer.\n    * **Content:** Include placeholders for: Copyright `&copy; [Year] [Your Brand Name]`. Links: \"Privacy Policy\", \"Terms & Conditions\". Placeholder social media icons (simple text links or placeholders for icons are fine): \"Instagram\", \"Pinterest\", \"Facebook\". Use appropriate Tailwind classes for layout.\n\n**Overall Styling & Technical Requirements (Apply within the HTML value):**\n* **Tailwind CSS:** Use Tailwind CSS classes *directly* within the HTML for ALL styling. Do not use `<style>` tags or external CSS files.\n* **Responsiveness:** The entire page MUST be fully responsive and look good on all screen sizes (mobile, tablet, desktop). Use mobile-first principles.\n* **Cleanliness & Consistency:** Maintain consistent spacing, typography sizes, and a modern, clean visual aesthetic throughout the page.\n* **Readability:** Ensure good contrast and legible font choices (use standard Tailwind font utilities).\n* **HTML Structure:** Use semantic HTML elements where appropriate (e.g., `<header>`, `<section>`, `<main>`, `<footer>`, `<nav>`, `<h1>`, `<button>`). Use comments `` etc., to delineate sections. Ensure the HTML includes `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>` tags.\n\n**SEO Requirement:**\n* **Title Generation:** Generate *one* SEO-optimized title string (under 60 characters) for the page, incorporating key product terms and `[Your Brand Name]`. This title string should be used for the `title` field in the JSON output, AND it must also be included within the `<title>` tags inside the `<head>` section of the HTML markup.\n\n**Final Output Format:**\n* **Strictly adhere** to the following JSON structure for your output:\n```json\n{\n  \"templateType\": \"educational-resource\",\n  \"title\": \"/* Place the generated SEO-optimized title string here */\",\n  \"html\": \"/* Place the COMPLETE generated HTML markup as a single string here, including <!DOCTYPE>, <html>, <head> with the <title> tag, <body>, and all sections with Tailwind classes and integrated content */\"\n}"
+            }
+          ]
+        },
+        "options": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-deepseek.deepSeek",
+      "typeVersion": 1,
+      "position": [
+        -1280,
+        -1080
+      ],
+      "id": "40e9e85d-d5b5-4ab2-9528-34d5a5cd8aa6",
+      "name": "DeepSeek5",
+      "credentials": {
+        "deepSeekApi": {
+          "id": "qcWiXiGtRkBn5I1g",
+          "name": "DeepSeek account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "deepseek-chat",
+        "prompt": {
+          "messages": [
+            {
+              "content": "=content:{{ $json.message.content }}\n\nAnalyze the following content and categorize it into one of these four types:\n\nProduct Showcase → If it describes product features, specifications, and pricing.\n\nService Description → If it explains a service offering, process, or consultation.\n\nLead Generation → If the goal is to capture user details (e.g., sign up, free trial, booking).\n\nEducational Resource → If the focus is on providing knowledge, guides, or tutorials.\n\nReturn only the category name as a single word (Product, Service, Lead, or Education).\n\n"
+            }
+          ]
+        },
+        "options": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-deepseek.deepSeek",
+      "typeVersion": 1,
+      "position": [
+        -1280,
+        -920
+      ],
+      "id": "0565d547-5d8a-417f-84db-fda0c5e26d86",
+      "name": "DeepSeek6",
+      "credentials": {
+        "deepSeekApi": {
+          "id": "qcWiXiGtRkBn5I1g",
+          "name": "DeepSeek account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "deepseek-chat",
+        "prompt": {
+          "messages": [
+            {
+              "content": "=content:{{ $json.message.content }}\n\nAnalyze the following content and categorize it into one of these four types:\n\nProduct Showcase → If it describes product features, specifications, and pricing.\n\nService Description → If it explains a service offering, process, or consultation.\n\nLead Generation → If the goal is to capture user details (e.g., sign up, free trial, booking).\n\nEducational Resource → If the focus is on providing knowledge, guides, or tutorials.\n\nReturn only the category name as a single word (Product, Service, Lead, or Education).\n\n"
+            }
+          ]
+        },
+        "options": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-deepseek.deepSeek",
+      "typeVersion": 1,
+      "position": [
+        -1280,
+        -760
+      ],
+      "id": "9467674d-c24f-4fde-8810-092bcc9b8a9c",
+      "name": "DeepSeek7",
+      "credentials": {
+        "deepSeekApi": {
+          "id": "qcWiXiGtRkBn5I1g",
+          "name": "DeepSeek account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "deepseek-chat",
+        "prompt": {
+          "messages": [
+            {
+              "content": "=**Role:** You are an expert AI assistant functioning as a synergy of a **UI/UX designer**, **front-end developer (proficient in Tailwind CSS)**, **high-converting e-commerce copywriter**, and **SEO specialist**.\n\n**Content Input:**  \n```\n{{ $('DeepSeek3').item.json.message.content }}\n\n**Overall Task:** Generate a complete, professional, engaging, and conversion-optimized single-page landing page to sell a \"Lego Frame\" product. The output must be structured according to the specified JSON format, containing an SEO-optimized title and the complete HTML markup using **Tailwind CSS** for all styling, fully populated with compelling, SEO-informed copy, and adhering to all specified requirements.\n\n**Product Context & Details:**\n* **Product Name:** Premium Lego Minifigure Display Frame (or specify your exact name)\n* **Core Function:** To stylishly display and protect Lego minifigures.\n* **Target Audience:** Lego collectors (adults & kids), parents seeking organization/display solutions, gift-givers for Lego fans.\n* **Key Features:**\n    * Holds [Number of Minifigs] standard Lego minifigures.\n    * Crystal-clear, protective [e.g., acrylic, perspex] front cover.\n    * Frame constructed from [e.g., high-quality wood, durable plastic, aluminum].\n    * Easy access design for adding/swapping figures.\n    * Includes integrated wall-mounting hardware (and/or desk stand option).\n    * Available in [e.g., black, white, wood finish] colors/styles.\n    * Dimensions: [Provide approx. dimensions if available].\n* **Key Benefits:** Showcase collections beautifully, protect figures from dust/damage, organize clutter, turn minifigures into wall art, enhances room decor, perfect gift.\n\n**Landing Page Structure & Content Requirements (Generate directly into the HTML value within the JSON output):**\n\n1.  **Header Section:**\n    * **Structure:** Minimalist bar.\n    * **Content:** Placeholder for `[Your Brand Name]` logo on the left (use a simple text placeholder or an `<img>` tag with a placeholder `src`). Simple navigation links on the right: \"Features\", \"Gallery\", \"Shop\". Use appropriate Tailwind classes for layout and minimal styling.\n\n2.  **Hero Section:**\n    * **Structure:** Full-width section, visually impactful. Placeholder area for a background image (use comments or a placeholder div).\n    * **Copywriting:** Generate *one* compelling, benefit-driven **Headline** (e.g., \"Showcase Your Lego Minifigures in Style\"). Generate *one* concise **Subtext** expanding on the value (e.g., \"Protect, organize, and proudly display your favorite minifigs with our premium, easy-to-use frame.\"). Generate *one* clear, action-oriented **CTA Button Text** (e.g., \"Shop Frames Now\"). Integrate this copy directly into heading (h1/h2), paragraph (p), and button elements styled with Tailwind.\n\n3.  **Product Features & Benefits Section:**\n    * **Structure:** Use clear subheadings (e.g., \"Why Choose Our Frame?\"). Employ a layout (like a grid or alternating image/text blocks using Tailwind) suitable for showcasing 3-5 key features. Include placeholders for small icons or images related to features.\n    * **Copywriting:** For each key feature listed in \"Product Context & Details\" above, write a short description (1-2 sentences or bullet point) that clearly explains the feature AND emphasizes the resulting **benefit** for the customer. Integrate this copy directly. Focus on quality, protection, ease of use, and display aesthetics.\n\n4.  **Gallery/Inspiration Section:**\n    * **Structure:** Create a section with a heading like \"See It In Action\" or \"Collector Showcases\". Design a responsive grid (using Tailwind grid classes) to hold 4-6 placeholder images (`<img>` tags with placeholder `src` or colored divs) representing the frame in use in various settings or with different Lego themes.\n\n5.  **FAQ Section:**\n    * **Structure:** Include a heading (e.g., \"Frequently Asked Questions\"). Use an accordion structure (if feasible with basic Tailwind, otherwise simple Q&A pairs) for 4-5 questions.\n    * **Copywriting:** Generate 4-5 relevant **Questions** based on the product type (capacity, materials, dimensions, mounting, assembly, shipping). Generate a concise, helpful, and reassuring **Answer** for each question. Integrate Q&A directly into the structure.\n\n6.  **Call-to-Action (CTA) Section:**\n    * **Structure:** A visually distinct section designed to drive conversion.\n    * **Copywriting:** Generate *one* action-oriented **Headline** (e.g., \"Ready to Elevate Your Display?\"). Generate *one* strong **CTA Button Text** (e.g., \"Order Your Frame Today\"). Below the button, generate and list 3-4 concise **Trust Signals** as text snippets (e.g., \"✅ Secure Checkout\", \"⭐ Satisfaction Guaranteed\", \"🚚 Fast Shipping\"). Integrate directly.\n\n7.  **Footer Section:**\n    * **Structure:** Clean, minimal footer.\n    * **Content:** Include placeholders for: Copyright `&copy; [Year] [Your Brand Name]`. Links: \"Privacy Policy\", \"Terms & Conditions\". Placeholder social media icons (simple text links or placeholders for icons are fine): \"Instagram\", \"Pinterest\", \"Facebook\". Use appropriate Tailwind classes for layout.\n\n**Overall Styling & Technical Requirements (Apply within the HTML value):**\n* **Tailwind CSS:** Use Tailwind CSS classes *directly* within the HTML for ALL styling. Do not use `<style>` tags or external CSS files.\n* **Responsiveness:** The entire page MUST be fully responsive and look good on all screen sizes (mobile, tablet, desktop). Use mobile-first principles.\n* **Cleanliness & Consistency:** Maintain consistent spacing, typography sizes, and a modern, clean visual aesthetic throughout the page.\n* **Readability:** Ensure good contrast and legible font choices (use standard Tailwind font utilities).\n* **HTML Structure:** Use semantic HTML elements where appropriate (e.g., `<header>`, `<section>`, `<main>`, `<footer>`, `<nav>`, `<h1>`, `<button>`). Use comments `` etc., to delineate sections. Ensure the HTML includes `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>` tags.\n\n**SEO Requirement:**\n* **Title Generation:** Generate *one* SEO-optimized title string (under 60 characters) for the page, incorporating key product terms and `[Your Brand Name]`. This title string should be used for the `title` field in the JSON output, AND it must also be included within the `<title>` tags inside the `<head>` section of the HTML markup.\n\n**Final Output Format:**\n* **Strictly adhere** to the following JSON structure for your output:\n```json\n{\n  \"templateType\": \"educational-resource\",\n  \"title\": \"/* Place the generated SEO-optimized title string here */\",\n  \"html\": \"/* Place the COMPLETE generated HTML markup as a single string here, including <!DOCTYPE>, <html>, <head> with the <title> tag, <body>, and all sections with Tailwind classes and integrated content */\"\n}"
+            }
+          ]
+        },
+        "options": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-deepseek.deepSeek",
+      "typeVersion": 1,
+      "position": [
+        -1280,
+        -600
+      ],
+      "id": "7544fcf4-51f9-4049-b2ec-cbcd376d07d9",
+      "name": "DeepSeek8",
+      "credentials": {
+        "deepSeekApi": {
+          "id": "qcWiXiGtRkBn5I1g",
+          "name": "DeepSeek account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "deepseek-chat",
+        "prompt": {
+          "messages": [
+            {
+              "role": "system",
+              "content": "=Your task is to convert a given JSON object into a full HTML document.\n\nThe JSON object has the following structure:\n{\n  \"title\": \"String representing the page title\",\n  \"html\": \"String containing the HTML content for the page body\"\n}"
+            },
+            {
+              "content": "={{ $json.message.content }}"
+            }
+          ]
+        },
+        "options": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-deepseek.deepSeek",
+      "typeVersion": 1,
+      "position": [
+        -1040,
+        -860
+      ],
+      "id": "f1020bf1-a454-41be-8b77-459f0d088490",
+      "name": "DeepSeek9",
+      "credentials": {
+        "deepSeekApi": {
+          "id": "qcWiXiGtRkBn5I1g",
+          "name": "DeepSeek account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "html": "<!DOCTYPE html>\n\n<html>\n<head>\n  <meta charset=\"UTF-8\" />\n    <script src=\"https://cdn.tailwindcss.com\"></script>\n  <title>{{ $json.message.content.title }}</title>\n</head>\n<body>\n{{ $json.message.content }}\n</body>\n</html>"
+      },
+      "id": "e04dc3a4-6333-43fe-8585-ed8adafca815",
+      "name": "Format the HTML result1",
+      "type": "n8n-nodes-base.html",
+      "position": [
+        -860,
+        -860
+      ],
+      "typeVersion": 1.2
+    },
+    {
+      "parameters": {
+        "url": "https://serpapi.com/search?engine=google_images",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "serpApi",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "q",
+              "value": "={{ $('Title').item.json.message.content }}"
+            },
+            {
+              "name": "gl",
+              "value": "us"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -1020,
+        -520
+      ],
+      "id": "9c5cc100-bb9c-4e4a-8ea6-b3b9e656e210",
+      "name": "Image Covers1",
+      "credentials": {
+        "httpQueryAuth": {
+          "id": "q1vXF4jgxqYIW87P",
+          "name": "Query Auth account"
+        },
+        "serpApi": {
+          "id": "Y3B3CXeloZCjU8Fo",
+          "name": "SerpAPI account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "1f0541df-05ab-4e3d-a5d8-3904579fc8a9",
+              "name": "image-url",
+              "value": "={{ $json.images_results[1].original }}",
+              "type": "string"
+            },
+            {
+              "id": "010a7d85-5ed9-43fa-9a03-15d81b631015",
+              "name": "",
+              "value": "",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -840,
+        -520
+      ],
+      "id": "5cf2d01d-5958-42f3-8600-826bb0825972",
+      "name": "Edit Fields1"
+    },
+    {
+      "parameters": {
+        "operation": "update",
+        "documentId": {
+          "__rl": true,
+          "value": "1PkMdJdYhgdxuXsK8pUspKFvSAbmIAqf3y9i68Aqfw2k",
+          "mode": "list",
+          "cachedResultName": "JoFrame- Blog Automation",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1PkMdJdYhgdxuXsK8pUspKFvSAbmIAqf3y9i68Aqfw2k/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 1714539459,
+          "mode": "list",
+          "cachedResultName": "Pillar #1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1PkMdJdYhgdxuXsK8pUspKFvSAbmIAqf3y9i68Aqfw2k/edit#gid=1714539459"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Primary Keyword": "{{ $('Grab New Cluster').last().json['Primary Keyword'] }}",
+            "Completed": "Yes"
+          },
+          "matchingColumns": [
+            "Primary Keyword"
+          ],
+          "schema": [
+            {
+              "id": "Cluster",
+              "displayName": "Cluster",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Intent",
+              "displayName": "Intent",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Keywords",
+              "displayName": "Keywords",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Primary Keyword",
+              "displayName": "Primary Keyword",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Faq",
+              "displayName": "Faq",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Completed",
+              "displayName": "Completed",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "row_number",
+              "displayName": "row_number",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "readOnly": true,
+              "removed": true
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        -320,
+        -520
+      ],
+      "id": "7d6bff73-aea7-47ad-9e0a-b8348a55b195",
+      "name": "Check as completed on Sheets1",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "8050CbIUTPPd5eLC",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "append",
+        "documentId": {
+          "__rl": true,
+          "value": "1jtFve0KSexmY61apZnp3mqQmceOeZ-czznYK9pv_1sk",
+          "mode": "list",
+          "cachedResultName": "Previous Posts",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1jtFve0KSexmY61apZnp3mqQmceOeZ-czznYK9pv_1sk/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": 634298018,
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1VBn94hh0caksH-Yk4h4BFZ80_sJJinIFxyWba9fQ8QQ/edit#gid=634298018"
+        },
+        "columns": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "Keywords": "={{ $('Grab New Cluster').last().json.Keywords }}",
+            "URL": "=https://blogs.vistaratechnologies.in/{{ $('Slug').item.json.message.content }}",
+            "Blog Title": "={{ $('Title').item.json.message.content }}",
+            "Summary": "={{ $('Meta description').item.json.message.content }}",
+            "Post ID": "={{ $('Wordpress1').item.json.id }}"
+          },
+          "matchingColumns": [],
+          "schema": [
+            {
+              "id": "Blog Title",
+              "displayName": "Blog Title",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "Keywords",
+              "displayName": "Keywords",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Summary",
+              "displayName": "Summary",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "URL",
+              "displayName": "URL",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true
+            },
+            {
+              "id": "Post ID",
+              "displayName": "Post ID",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "LINKDIN ",
+              "displayName": "LINKDIN ",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "FACEBOOK",
+              "displayName": "FACEBOOK",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "type": "string",
+              "canBeUsedToMatch": true,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": false
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheets",
+      "typeVersion": 4.5,
+      "position": [
+        -140,
+        -520
+      ],
+      "id": "bb2c51d4-5294-47a6-9902-f2110c34f35a",
+      "name": "Google Sheets1",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "8050CbIUTPPd5eLC",
+          "name": "Google Sheets account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "content": "## Get Image\n\n\n\n \n \n",
+        "height": 240,
+        "width": 360
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -1080,
+        -600
+      ],
+      "typeVersion": 1,
+      "id": "a78a5f24-51c7-4d9c-aa2b-89bedba963d6",
+      "name": "Sticky Note19"
+    },
+    {
+      "parameters": {
+        "content": "## Post\n\n\n\n\n \n \n",
+        "height": 240
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -680,
+        -600
+      ],
+      "typeVersion": 1,
+      "id": "9f6ddff0-6407-462d-a7ae-d549681ebbf7",
+      "name": "Sticky Note20"
+    },
+    {
+      "parameters": {
+        "title": "={{ $('Title').item.json.message.content }}",
+        "additionalFields": {
+          "authorId": "={{ 1 }}",
+          "content": "=<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>{{ $json['title'] || 'Vistara Technologies' }}</title>\n\n  <!-- Load Tailwind CSS -->\n  <script src=\"https://cdn.tailwindcss.com\"></script>\n\n  <style>\n    .container { \n      max-width: 800px; \n      margin: auto; \n      background: white; \n      padding: 24px; \n      border-radius: 8px; \n      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); \n    }\n  </style>\n</head>\n<body class=\"bg-gray-100 p-6\">\n  \n  <!-- Navigation -->\n  <header class=\"bg-blue-600 text-white py-4 text-center text-xl font-bold\">\n    {{ $json['site_name'] || 'Vistara Technologies' }}\n  </header>\n\n  <div class=\"container my-8 p-6 bg-white rounded-lg shadow-lg\">\n    \n    <!-- Title -->\n    <h1 class=\"text-3xl font-bold text-gray-800\">{{ $('HTML version').item.json.message.content.title }}</h1>\n\n    <!-- Featured Image -->\n    <img src=\"{{ $json['image-url'] || 'default-image.jpg' }}\" \n         alt=\"{{ $json['title'] || 'Cover Image' }}\" \n         class=\"w-full mt-4 rounded-lg shadow-sm\">\n\n    <!-- Content Section -->\n    <div class=\"mt-6 text-gray-700\">\n       {{ $('HTML version').item.json.message.content.html }}\n    </div>\n\n    <!-- WPForms Contact Form (WordPress Integration Required) -->\n    <div class=\"mt-8 bg-gray-100 p-4 rounded-lg\">\n      <h2 class=\"text-xl font-semibold text-gray-800\">Get in Touch</h2>\n      <div id=\"wp-form-container\"></div>\n      <script>\n        document.getElementById('wp-form-container').innerHTML = `[wpforms id=\"26\" title=\"false\"]`;\n      </script>\n    </div>\n  </div>\n  \n  <!-- Footer -->\n  <footer class=\"text-center text-gray-600 py-4\">\n    &copy;{{ new Date().getFullYear() }} - {{ $json['site_name'] || 'Vistara Technologies' }}. All rights reserved.\n  </footer>\n\n</body>\n</html>\n",
+          "slug": "={{ $('Slug').item.json.message.content }}",
+          "status": "private",
+          "commentStatus": "closed",
+          "sticky": false,
+          "categories": [
+            1
+          ],
+          "tags": [],
+          "postTemplate": {
+            "values": {
+              "elementor": false
+            }
+          }
+        }
+      },
+      "type": "n8n-nodes-base.wordpress",
+      "typeVersion": 1,
+      "position": [
+        -580,
+        -520
+      ],
+      "id": "5bd942ef-b6bd-469b-b0d2-fb0133b84dca",
+      "name": "Wordpress1",
+      "credentials": {
+        "wordpressApi": {
+          "id": "UfjnDwZF36cesxyo",
+          "name": "Wordpress account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "content": "## Completion\n\n\n\n\n\n \n \n",
+        "height": 240,
+        "width": 480
+      },
+      "type": "n8n-nodes-base.stickyNote",
+      "position": [
+        -400,
+        -600
+      ],
+      "typeVersion": 1,
+      "id": "9bbdace6-d2ad-4c4b-9b5d-ae4e6d528f60",
+      "name": "Sticky Note21"
+    },
+    {
+      "parameters": {
+        "model": "deepseek-chat",
+        "prompt": {
+          "messages": [
+            {
+              "content": "=Create a slug for the following blog post: \n{{ $('Add internal links').item.json.message.content }}\n\nA slug in a blog post is the part of the URL that comes after the domain name and identifies a specific page. It is typically a short, descriptive phrase that summarizes the content of the post, making it easier for users and search engines to understand what the page is about. For example, in the URL www.example.com/intelligent-agents, the slug is intelligent-agents. A good slug is concise, contains relevant keywords, and avoids unnecessary words to improve readability and SEO. \n\nThe slug must be 4 or 5 words max and must include the primary keyword of the blog post which is {{ $('Grab New Cluster').last().json['Primary Keyword'] }}.\n\nYour output must be the slug and nothing else so that I can copy and paste your output and put it at the end of my blog post URL to post it right away. "
+            }
+          ]
+        },
+        "options": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-deepseek.deepSeek",
+      "typeVersion": 1,
+      "position": [
+        -660,
+        -860
+      ],
+      "id": "860ea02b-ea70-479b-a90f-0733a8283d89",
+      "name": "DeepSeek10",
+      "credentials": {
+        "deepSeekApi": {
+          "id": "qcWiXiGtRkBn5I1g",
+          "name": "DeepSeek account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "deepseek-chat",
+        "prompt": {
+          "messages": [
+            {
+              "content": "=Extract the blog post title from the following blog post: \n{{ $('Add internal links').item.json.message.content }}\n\n\n\nThe blog post title must include the primary keyword {{ $('Grab New Cluster').last().json['Primary Keyword'] }} and must inform the users right away of what they can expect from reading the blog post. \n\n- Don't put the output in \"\". The output should just text with no markdown or formatting. \n\nYour output must only be the blog post title and nothing else. "
+            }
+          ]
+        },
+        "options": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-deepseek.deepSeek",
+      "typeVersion": 1,
+      "position": [
+        -460,
+        -860
+      ],
+      "id": "d47ba82d-ea17-4ad8-83e1-16a1a0e052fc",
+      "name": "DeepSeek11",
+      "credentials": {
+        "deepSeekApi": {
+          "id": "qcWiXiGtRkBn5I1g",
+          "name": "DeepSeek account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "model": "deepseek-chat",
+        "prompt": {
+          "messages": [
+            {
+              "content": "=Create a good meta description for the following blog post: \n\n{{ $('Add internal links').item.json.message.content }}\n\nA good meta description for a blog post that is SEO-optimized should:\n- Be Concise: Stick to 150-160 characters to ensure the full description displays in search results. \n- Include Keywords: Incorporate primary keywords naturally to improve visibility and relevance to search queries.\n\nPrimary keyword = {{ $('Grab New Cluster').last().json['Primary Keyword'] }}\n\nMore keywords to include if possible = [{{ $('Grab New Cluster').last().json.Keywords }}]\n\n- Provide Value: Clearly describe what the reader will learn or gain by clicking the link. \n\n- Be Engaging: Use persuasive language, such as action verbs or a question, to encourage clicks. \n\n- Align with Content: Ensure the description accurately reflects the blog post to meet user expectations and reduce bounce rates. \n\nYour output must only be the meta description and nothing else. \n"
+            },
+            {
+              "content": "={{ $json.message.content.html }}"
+            }
+          ]
+        },
+        "options": {},
+        "requestOptions": {}
+      },
+      "type": "n8n-nodes-deepseek.deepSeek",
+      "typeVersion": 1,
+      "position": [
+        -260,
+        -860
+      ],
+      "id": "a9741827-86e1-41fc-bfbf-791cd01a3cf3",
+      "name": "DeepSeek12",
+      "credentials": {
+        "deepSeekApi": {
+          "id": "qcWiXiGtRkBn5I1g",
+          "name": "DeepSeek account"
         }
       }
     }
@@ -1934,6 +3074,6 @@
     }
   ],
   "triggerCount": 0,
-  "updatedAt": "2025-04-07T17:29:28.000Z",
-  "versionId": "0800cb35-23e6-4918-b07b-09d1e8df1a0c"
+  "updatedAt": "2025-04-07T19:24:42.000Z",
+  "versionId": "cf1c76b8-604e-4f9c-ab08-2b2a14d45d82"
 }
