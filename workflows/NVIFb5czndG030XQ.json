@@ -314,7 +314,7 @@
   "meta": {
     "templateCredsSetupCompleted": true
   },
-  "name": "My workflow 2",
+  "name": "JoFrame Auto Posting Wordpress News",
   "nodes": [
     {
       "parameters": {
@@ -330,7 +330,7 @@
       "type": "n8n-nodes-base.scheduleTrigger",
       "typeVersion": 1.2,
       "position": [
-        -3600,
+        -3500,
         440
       ],
       "id": "3ad6e643-bbaa-4bf7-ae09-09b6731da6c4",
@@ -357,7 +357,7 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.5,
       "position": [
-        -3380,
+        -3240,
         440
       ],
       "id": "df56aa1e-5842-4741-ba76-d54e5d4667a5",
@@ -660,7 +660,7 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        2280,
+        2240,
         440
       ],
       "id": "b95cd332-64d8-4a85-b2ce-5db2d811380f",
@@ -699,7 +699,7 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        2460,
+        2420,
         440
       ],
       "id": "d379af53-bfbe-4571-b474-5b19236f91c8",
@@ -725,7 +725,8 @@
         "columns": {
           "mappingMode": "defineBelow",
           "value": {
-            "Primary Keyword": "{{ $('Grab New Cluster').last().json['Primary Keyword'] }}"
+            "Primary Keyword": "{{ $('Grab New Cluster').last().json['Primary Keyword'] }}",
+            "Completed": "Yes"
           },
           "matchingColumns": [
             "Primary Keyword"
@@ -943,7 +944,7 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        -3680,
+        -3580,
         360
       ],
       "typeVersion": 1,
@@ -957,7 +958,7 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        -3440,
+        -3300,
         360
       ],
       "typeVersion": 1,
@@ -1107,7 +1108,7 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        2220,
+        2180,
         360
       ],
       "typeVersion": 1,
@@ -1159,8 +1160,8 @@
       "name": "Wordpress",
       "credentials": {
         "wordpressApi": {
-          "id": "WQQUHndipKphCibb",
-          "name": "Wordpress account 2"
+          "id": "UfjnDwZF36cesxyo",
+          "name": "Wordpress account"
         }
       }
     },
@@ -1188,7 +1189,7 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        -3400,
+        -3580,
         100
       ],
       "typeVersion": 1,
@@ -1233,17 +1234,17 @@
       "parameters": {
         "documentId": {
           "__rl": true,
-          "value": "1jtFve0KSexmY61apZnp3mqQmceOeZ-czznYK9pv_1sk",
+          "value": "12QRaArKqPS3Xc5xWmVYfVNEtQfVXEez7w-D0y4lvXhQ",
           "mode": "list",
-          "cachedResultName": "Previous Posts",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1jtFve0KSexmY61apZnp3mqQmceOeZ-czznYK9pv_1sk/edit?usp=drivesdk"
+          "cachedResultName": "JoFrame - Previous Posts",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/12QRaArKqPS3Xc5xWmVYfVNEtQfVXEez7w-D0y4lvXhQ/edit?usp=drivesdk"
         },
         "sheetName": {
           "__rl": true,
           "value": 634298018,
           "mode": "list",
           "cachedResultName": "Sheet1",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1jtFve0KSexmY61apZnp3mqQmceOeZ-czznYK9pv_1sk/edit#gid=634298018"
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/12QRaArKqPS3Xc5xWmVYfVNEtQfVXEez7w-D0y4lvXhQ/edit#gid=634298018"
         },
         "options": {}
       },
@@ -1644,7 +1645,7 @@
       "type": "n8n-nodes-base.filter",
       "typeVersion": 2.2,
       "position": [
-        -3120,
+        -3020,
         440
       ],
       "id": "7e024e17-12ab-452e-8aef-4b0f1aa5b041",
@@ -1665,6 +1666,6 @@
     }
   ],
   "triggerCount": 0,
-  "updatedAt": "2025-04-07T09:58:35.000Z",
-  "versionId": "640cf589-f05a-4fe9-94cd-f7ae6ca9ddd5"
+  "updatedAt": "2025-04-07T11:09:17.000Z",
+  "versionId": "39b2adea-6a4f-4901-bb07-cccdbf986784"
 }
