@@ -466,8 +466,8 @@
       "typeVersion": 1,
       "credentials": {
         "githubApi": {
-          "id": "g7cvLFB6q0f0VN1f",
-          "name": "GitHub account"
+          "id": "ce6DmXuiRN8CeHxo",
+          "name": "GitHub 3"
         }
       }
     },
@@ -499,8 +499,8 @@
       "typeVersion": 1,
       "credentials": {
         "githubApi": {
-          "id": "g7cvLFB6q0f0VN1f",
-          "name": "GitHub account"
+          "id": "ce6DmXuiRN8CeHxo",
+          "name": "GitHub 3"
         }
       }
     },
@@ -598,8 +598,8 @@
       "alwaysOutputData": true,
       "credentials": {
         "githubApi": {
-          "id": "g7cvLFB6q0f0VN1f",
-          "name": "GitHub account"
+          "id": "ce6DmXuiRN8CeHxo",
+          "name": "GitHub 3"
         }
       },
       "continueOnFail": true
@@ -618,7 +618,7 @@
               "id": "452efa28-2dc6-4ea3-a7a2-c35d100d0382",
               "name": "repo.name",
               "type": "string",
-              "value": "n8n-backup"
+              "value": "n8n-backtoback"
             },
             {
               "id": "81c4dc54-86bf-4432-a23f-22c7ea831e74",
@@ -717,6 +717,6 @@
   "staticData": null,
   "tags": [],
   "triggerCount": 0,
-  "updatedAt": "2025-04-07T05:37:58.000Z",
-  "versionId": "c9ce3cec-c679-4bbc-a551-c36d85a61129"
+  "updatedAt": "2025-04-07T05:50:29.000Z",
+  "versionId": "73678718-8120-4eb3-b96e-815796079b40"
 }
