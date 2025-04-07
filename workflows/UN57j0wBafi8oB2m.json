@@ -694,7 +694,8 @@
         1860,
         480
       ],
-      "typeVersion": 1
+      "typeVersion": 1,
+      "alwaysOutputData": true
     },
     {
       "parameters": {
@@ -717,6 +718,6 @@
   "staticData": null,
   "tags": [],
   "triggerCount": 0,
-  "updatedAt": "2025-04-07T05:50:29.000Z",
-  "versionId": "73678718-8120-4eb3-b96e-815796079b40"
+  "updatedAt": "2025-04-07T06:12:37.000Z",
+  "versionId": "a1be5774-422d-4aa4-8e48-bc6e3e9bc6a3"
 }
