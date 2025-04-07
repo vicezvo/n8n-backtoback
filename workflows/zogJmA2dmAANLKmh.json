@@ -1,0 +1,192 @@
+{
+  "active": false,
+  "connections": {
+    "Cron": {
+      "main": [
+        [
+          {
+            "node": "Export Workflows",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "git add": {
+      "main": [
+        [
+          {
+            "node": "git commit",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "git commit": {
+      "main": [
+        [
+          {
+            "node": "git push",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Export Workflows": {
+      "main": [
+        [
+          {
+            "node": "Export Credentials",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Export Credentials": {
+      "main": [
+        [
+          {
+            "node": "git add",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "On clicking 'execute'": {
+      "main": [
+        [
+          {
+            "node": "Export Workflows",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "createdAt": "2025-04-07T07:31:12.527Z",
+  "id": "zogJmA2dmAANLKmh",
+  "meta": {
+    "templateId": "1053"
+  },
+  "name": "Git backup of workflows and credentials",
+  "nodes": [
+    {
+      "parameters": {},
+      "name": "On clicking 'execute'",
+      "type": "n8n-nodes-base.manualTrigger",
+      "position": [
+        380,
+        440
+      ],
+      "typeVersion": 1,
+      "id": "37b7c1f0-8608-407d-9cce-74905cf15a32"
+    },
+    {
+      "parameters": {
+        "command": "npx n8n export:workflow --backup --output repo/workflows/"
+      },
+      "name": "Export Workflows",
+      "type": "n8n-nodes-base.executeCommand",
+      "position": [
+        580,
+        340
+      ],
+      "typeVersion": 1,
+      "id": "b1a69d21-8776-4aee-ad0d-22c07917dfc2"
+    },
+    {
+      "parameters": {
+        "command": "npx n8n export:credentials --backup --output repo/credentials/"
+      },
+      "name": "Export Credentials",
+      "type": "n8n-nodes-base.executeCommand",
+      "position": [
+        740,
+        340
+      ],
+      "typeVersion": 1,
+      "id": "6b23e365-226c-4b79-b116-4d3b622a033d"
+    },
+    {
+      "parameters": {
+        "command": "git -C repo add ."
+      },
+      "name": "git add",
+      "type": "n8n-nodes-base.executeCommand",
+      "position": [
+        880,
+        340
+      ],
+      "typeVersion": 1,
+      "id": "5fa288a4-8a43-492c-b833-5efdbaf2c9f1"
+    },
+    {
+      "parameters": {
+        "command": "=git -C repo commit -m \"Auto backup ({{ new Date().toISOString() }})\""
+      },
+      "name": "git commit",
+      "type": "n8n-nodes-base.executeCommand",
+      "position": [
+        1040,
+        340
+      ],
+      "typeVersion": 1,
+      "id": "a4a78f55-c042-4ae3-a911-d1ce649fbdcf"
+    },
+    {
+      "parameters": {
+        "command": "git -C repo push"
+      },
+      "name": "git push",
+      "type": "n8n-nodes-base.executeCommand",
+      "position": [
+        1180,
+        340
+      ],
+      "typeVersion": 1,
+      "id": "a9dc7190-cf83-45a3-86d9-a3639921daa3"
+    },
+    {
+      "parameters": {
+        "triggerTimes": {
+          "item": [
+            {
+              "hour": 0
+            },
+            {
+              "hour": 12
+            },
+            {
+              "hour": 6
+            },
+            {
+              "hour": 18
+            }
+          ]
+        }
+      },
+      "name": "Cron",
+      "type": "n8n-nodes-base.cron",
+      "position": [
+        380,
+        240
+      ],
+      "typeVersion": 1,
+      "id": "8a414b10-7b03-4e3a-8500-6ea987192f29"
+    }
+  ],
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2025-04-07T07:31:12.527Z",
+  "versionId": "d9f09be8-6f49-41f6-9305-228588c99fa4"
+}
