@@ -373,9 +373,9 @@
       "parameters": {
         "modelId": {
           "__rl": true,
-          "value": "gpt-4-turbo",
+          "value": "gpt-4o-mini",
           "mode": "list",
-          "cachedResultName": "GPT-4-TURBO"
+          "cachedResultName": "GPT-4O-MINI"
         },
         "messages": {
           "values": [
@@ -396,8 +396,8 @@
       "name": "Preliminary Plan",
       "credentials": {
         "openAiApi": {
-          "id": "Vh1Kgy5ShKLBWvw4",
-          "name": "OpenAi account"
+          "id": "jI0kfY0u644jKF5W",
+          "name": "OpenAi account 2"
         }
       }
     },
@@ -424,7 +424,7 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        -2220,
+        -2180,
         440
       ],
       "id": "0a192493-86e2-4713-819d-4d86b4307234",
@@ -450,15 +450,15 @@
       "type": "@n8n/n8n-nodes-langchain.openAi",
       "typeVersion": 1.8,
       "position": [
-        -2060,
+        -2020,
         440
       ],
       "id": "919b5021-cd36-4b1a-8a1d-0466f258d890",
       "name": "Create plan",
       "credentials": {
         "openAiApi": {
-          "id": "Vh1Kgy5ShKLBWvw4",
-          "name": "OpenAi account"
+          "id": "jI0kfY0u644jKF5W",
+          "name": "OpenAi account 2"
         }
       }
     },
@@ -482,15 +482,15 @@
       "type": "@n8n/n8n-nodes-langchain.openAi",
       "typeVersion": 1.8,
       "position": [
-        -1680,
+        -1640,
         440
       ],
       "id": "c778ecea-6c5b-4ff6-b875-bee81ee1aa21",
       "name": "Write Blog",
       "credentials": {
         "openAiApi": {
-          "id": "Vh1Kgy5ShKLBWvw4",
-          "name": "OpenAi account"
+          "id": "jI0kfY0u644jKF5W",
+          "name": "OpenAi account 2"
         }
       }
     },
@@ -503,7 +503,7 @@
       "type": "n8n-nodes-base.aggregate",
       "typeVersion": 1,
       "position": [
-        -1120,
+        -1080,
         440
       ],
       "id": "c51726fb-ff5d-4ca4-8e59-b8ea39d0595f",
@@ -536,8 +536,8 @@
       "name": "Add internal links",
       "credentials": {
         "openAiApi": {
-          "id": "Vh1Kgy5ShKLBWvw4",
-          "name": "OpenAi account"
+          "id": "jI0kfY0u644jKF5W",
+          "name": "OpenAi account 2"
         }
       }
     },
@@ -988,7 +988,7 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        -2440,
+        -2400,
         360
       ],
       "typeVersion": 1,
@@ -1003,7 +1003,7 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        -2080,
+        -2040,
         360
       ],
       "typeVersion": 1,
@@ -1018,7 +1018,7 @@
       },
       "type": "n8n-nodes-base.stickyNote",
       "position": [
-        -1700,
+        -1660,
         360
       ],
       "typeVersion": 1,
@@ -1210,7 +1210,7 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        -2400,
+        -2360,
         440
       ],
       "id": "f2b4dbe3-2f9b-40ff-a354-fd30ed718151",
@@ -1251,7 +1251,7 @@
       "type": "n8n-nodes-base.googleSheets",
       "typeVersion": 4.5,
       "position": [
-        -1320,
+        -1280,
         440
       ],
       "id": "8d6c78c7-0093-4582-9f92-7e99a1c70126",
@@ -1450,8 +1450,8 @@
       "name": "OpenAI1",
       "credentials": {
         "openAiApi": {
-          "id": "Vh1Kgy5ShKLBWvw4",
-          "name": "OpenAi account"
+          "id": "jI0kfY0u644jKF5W",
+          "name": "OpenAi account 2"
         }
       }
     },
@@ -1483,8 +1483,8 @@
       "name": "Education",
       "credentials": {
         "openAiApi": {
-          "id": "Vh1Kgy5ShKLBWvw4",
-          "name": "OpenAi account"
+          "id": "jI0kfY0u644jKF5W",
+          "name": "OpenAi account 2"
         }
       }
     },
@@ -1516,8 +1516,8 @@
       "name": "Service",
       "credentials": {
         "openAiApi": {
-          "id": "Vh1Kgy5ShKLBWvw4",
-          "name": "OpenAi account"
+          "id": "jI0kfY0u644jKF5W",
+          "name": "OpenAi account 2"
         }
       }
     },
@@ -1666,6 +1666,6 @@
     }
   ],
   "triggerCount": 0,
-  "updatedAt": "2025-04-07T15:45:30.000Z",
-  "versionId": "7a5d4a5e-5f6a-417e-8ff4-ab7c114025f9"
+  "updatedAt": "2025-04-07T17:02:13.000Z",
+  "versionId": "5dd0171e-ab66-4ea4-a2d8-9408cdbda229"
 }
