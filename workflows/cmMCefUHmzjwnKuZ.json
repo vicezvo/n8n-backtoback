@@ -1466,6 +1466,18 @@
   "staticData": null,
   "tags": [
     {
+      "createdAt": "2025-04-12T06:31:38.260Z",
+      "updatedAt": "2025-04-12T06:31:38.260Z",
+      "id": "67JuYsy6BPR9Ns7Z",
+      "name": "template"
+    },
+    {
+      "createdAt": "2025-04-12T06:31:04.032Z",
+      "updatedAt": "2025-04-12T06:31:04.032Z",
+      "id": "m1DrzqTBWx9FoEh7",
+      "name": "News"
+    },
+    {
       "createdAt": "2025-04-07T08:18:54.388Z",
       "updatedAt": "2025-04-07T08:18:54.388Z",
       "id": "neP6fa6igInGwFj1",
@@ -1473,6 +1485,6 @@
     }
   ],
   "triggerCount": 0,
-  "updatedAt": "2025-04-07T08:19:25.138Z",
-  "versionId": "7935e154-5662-4abf-a6e2-0c3df841d008"
+  "updatedAt": "2025-04-12T06:31:41.000Z",
+  "versionId": "36898341-c86b-48c1-b1ba-dc2c89d49489"
 }
