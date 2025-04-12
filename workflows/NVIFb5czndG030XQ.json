@@ -314,7 +314,7 @@
   "meta": {
     "templateCredsSetupCompleted": true
   },
-  "name": "JoFrame Auto Posting Wordpress News",
+  "name": "JoFrame Auto Posting Wordpress Landing News",
   "nodes": [
     {
       "parameters": {
@@ -1659,6 +1659,12 @@
   "staticData": null,
   "tags": [
     {
+      "createdAt": "2025-04-12T06:31:04.032Z",
+      "updatedAt": "2025-04-12T06:31:04.032Z",
+      "id": "m1DrzqTBWx9FoEh7",
+      "name": "News"
+    },
+    {
       "createdAt": "2025-04-07T08:18:54.388Z",
       "updatedAt": "2025-04-07T08:18:54.388Z",
       "id": "neP6fa6igInGwFj1",
@@ -1666,6 +1672,6 @@
     }
   ],
   "triggerCount": 0,
-  "updatedAt": "2025-04-07T17:02:13.000Z",
-  "versionId": "5dd0171e-ab66-4ea4-a2d8-9408cdbda229"
+  "updatedAt": "2025-04-12T06:31:08.000Z",
+  "versionId": "7329feaf-a8b0-4853-948a-28df0cadb332"
 }
