@@ -1246,8 +1246,21 @@
       "recurrenceRules": []
     }
   },
-  "tags": [],
+  "tags": [
+    {
+      "createdAt": "2025-04-14T16:27:14.012Z",
+      "updatedAt": "2025-04-14T16:27:14.012Z",
+      "id": "3FucatNHmPAmAjJR",
+      "name": "EMME"
+    },
+    {
+      "createdAt": "2025-04-14T16:27:19.238Z",
+      "updatedAt": "2025-04-14T16:27:19.238Z",
+      "id": "w7tezf239VQ4m20B",
+      "name": "Facebook"
+    }
+  ],
   "triggerCount": 2,
-  "updatedAt": "2025-03-31T20:15:53.000Z",
-  "versionId": "bc56c1c0-8626-46b8-821b-0f93679c5dcc"
+  "updatedAt": "2025-04-14T16:27:20.000Z",
+  "versionId": "cbc90f0a-ed90-45f9-8750-21fca30c7185"
 }
