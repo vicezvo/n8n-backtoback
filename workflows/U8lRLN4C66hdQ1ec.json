@@ -1,0 +1,135 @@
+{
+  "active": false,
+  "connections": {
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Sheets": {
+      "ai_tool": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_tool",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "createdAt": "2025-04-14T16:33:35.769Z",
+  "id": "U8lRLN4C66hdQ1ec",
+  "meta": {
+    "templateCredsSetupCompleted": true
+  },
+  "name": "TEST Flow VInce",
+  "nodes": [
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.1,
+      "position": [
+        -240,
+        -160
+      ],
+      "id": "c9eca392-743c-4dc9-a870-72a650d5f7b8",
+      "name": "When chat message received",
+      "webhookId": "0e45f74e-90a8-4e06-a133-fb9eb4bb804f"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1.7,
+      "position": [
+        -100,
+        -160
+      ],
+      "id": "024a346a-8134-4a9b-b26b-88cb6d0d289e",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "modelName": "models/gemini-2.0-flash-thinking-exp-1219",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1,
+      "position": [
+        -100,
+        20
+      ],
+      "id": "8210bd36-4e7f-48ae-9a33-8cb6119a6c21",
+      "name": "Google Gemini Chat Model",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "fvJxqIkWzbZwR6vj",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "documentId": {
+          "__rl": true,
+          "value": "14fM01uaDhGK9_di7HqZbXp5TcvQBZJ2lRPZxy6KWcqQ",
+          "mode": "list",
+          "cachedResultName": "FB-Posting",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/14fM01uaDhGK9_di7HqZbXp5TcvQBZJ2lRPZxy6KWcqQ/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Dashboard",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/14fM01uaDhGK9_di7HqZbXp5TcvQBZJ2lRPZxy6KWcqQ/edit#gid=0"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTool",
+      "typeVersion": 4.5,
+      "position": [
+        160,
+        20
+      ],
+      "id": "630c9fa9-b606-45d9-8b28-9aa8afee779a",
+      "name": "Google Sheets",
+      "credentials": {
+        "googleSheetsOAuth2Api": {
+          "id": "8050CbIUTPPd5eLC",
+          "name": "Google Sheets account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 0,
+  "updatedAt": "2025-04-14T16:42:21.000Z",
+  "versionId": "80456f6d-3387-42c0-b9e5-2c2b52cb45f6"
+}
